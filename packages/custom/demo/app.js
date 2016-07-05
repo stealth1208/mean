@@ -23,6 +23,8 @@ Demo.register(function(app, auth, database, circles) {
     roles: ['authenticated'],
     menu: 'main'
   });
+
+  app.set('views', __dirname + '/server/views');
   
   /**
     //Uncomment to use. Requires meanio@0.3.7 or above

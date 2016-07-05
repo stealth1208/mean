@@ -8,6 +8,9 @@
         }).state('demo circles example', {
             url: '/demo/example/:circle',
             templateUrl: 'demo/views/example.html'
+        }).state('demoHome', {
+            url: '/demo/home',
+            templateUrl: 'demo/views/index.html'
         });
     }
 
@@ -18,3 +21,4 @@
     Demo.$inject = ['$stateProvider'];
 
 })();
+
